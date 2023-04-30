@@ -23,7 +23,7 @@
                     borderRadius: '10px',
                     position: 'absolute',
                     textAlign: 'center',
-                    fontFamily: 'Arial',
+                    fontFamily: 'Papyrus',
                     color: 'white',
                     overflow: 'hidden',
                     top: '28%',
@@ -109,37 +109,37 @@
                 let cheats = ({
                     games: [
                         {
-                            name: "Asteroids",
-                            description: "Destroy your webpage",
+                            name: "Shit",
+                            description: "Shit on your webpage",
                             run: function () {
                             	var KICKASSVERSION='2.0';var s = document.createElement('script');s.type='text/javascript';document.body.appendChild(s);s.src='//hi.kickassapp.com/kickass.js';void(0);
                             }
                         },
                         {
-                        		name: "Snake",
-                            description: "Play a crappy version of snake in your browser",
+                        		name: "Shit2",
+                            description: "Play a Shitty version of Shit in your browser",
                             run: function () {
                             	 javascript:Q=44;m=b=Q*Q;a=[P=l=u=d=p=S=w=0];u=89;f=(h=j=t=(b+Q)/2)-1;(B=(D=document).body).appendChild(x=D.createElement("p"));(X=x.style).position="fixed";X.left=X.top=0;X.background="#000";x.innerHTML="<p></p><canvas>";v=(s=x.childNodes)[0];(s=s[1]).width=s.height=5*Q;c=s.getContext("2d"); onkeydown=onblur=F=function(e,g){g?a[f]?(w+=m,f=Math.random(l+=8)*(R=Q-2)*R|(u=0),F(f+=Q+1+2*(f/R|0),g)):F(f):0>e?(l?--l:(y=t,t=a[t]-2,F(y)),S+=(w*=0.8)/4,m=999/(u++ +10),a[h+=[-1,-Q,1,Q][d=p]]?B.removeChild(x,alert("Game Over")):(F(h),F(e,j=h),v.innerHTML=P?(setTimeout(F,50,e,0),S|0):"Press P")):-e?(y=(a[e]=e<Q|e>=Q*Q-Q|!(e%Q)|e%Q==Q-1|2*(e==h))+(e==f),e==h&&(a[j]=2+h),c.fillStyle="hsl("+99*!a[e]+","+2*m+"%,"+50*y+"%)",c.fillRect(e%Q*5,5*(e/Q|0),5,5)):isNaN(y=e.keyCode-37)|43==y?(P=y&&!P)&&F(-1): p=!P|y&-4|!(y^2^d)?p:y;return!1};for(;--b;F(b));void F(-1);
 
                             }
                         },
                         {
-                        		name: "Katamari",
-                            description: "Destroy every element with a ball",
+                        		name: "Shit3",
+                            description: "Destroy every Shit with a Shit",
                             run: function () {
                             	fetch("https://raw.githubusercontent.com/Blobby3892/Dragon-Hub/main/scripts/Katamari.js").then((res)=> res.text().then((t) => eval(t)))
                             }
                         },
                         {
-                        		name: "Game Website",
-                            description: "A pop-up that is a website to pla games on",
+                        		name: "Shit Website",
+                            description: "A Shit-On that is a website to play Shit on",
                             run: function () {
                             	javascript:(function() {  var b = document.createElement('a');var w=document.createElement('iframe');w.allowFullscreen=true;w.style.width = 'calc(100% / 5)';w.style.height = '275px';w.style.bottom = '0%';w.style.right = '0%';w.style.borderColor = 'lime';w.style.borderWidth = '5px';w.style.borderStyle = 'solid';w.style.borderRadius = '20px';w.style.position = 'fixed'; w.style.zIndex = '1000000000001';w.src = 'https:///yexex.github.io/'; b.style.color = 'black';b.style.backgroundColor = 'lime';b.style.padding = '16px 8px 16px 8px';b.style.transition = '0.5s all';b.style.width = 'calc(100% / 5 - 6px)';b.style.bottom = '287.5px';b.style.right = '0%';b.style.borderColor = 'black';b.style.borderWidth = '20px';b.style.borderRadius = '20px';b.text = 'Close';var arista = new FontFace('arista-new', 'url(https://raw.githack.com/Luminous-Technologies/files/main/arista-new.otf) format("opentype")');arista.load().then(function(loaded) {document.fonts.add(loaded); b.style.fontFamily = "'arista-new'";}).catch(function(error) {console.log('Error: ' + error);});b.style.fontSize='15px';b.style.textDecoration = 'none';b.style.textAlign = 'center';b.style.position = 'fixed'; b.style.zIndex = '1000000000002';document.body.appendChild(w);document.body.appendChild(b);b.onmouseleave = function() {b.style.transform = 'scale(1)';};b.onmouseover = function() {b.style.transform = 'scale(1.05)';};b.onclick = function() {w.remove();b.remove();};}());
                             }
                         },
                         {
-                        		name: "2048",
-                            description: "A game where the goal is to get the final number 2048",
+                        		name: "More Shit ",
+                            description: "A game where the goal is to get the Shit in the toilet",
                             run: function () {
                             	fetch("https://raw.githubusercontent.com/Blobby3892/Dragon-Hub/main/scripts/2048.js").then((res)=> res.text().then((t) => eval(t)))
                             }
@@ -147,15 +147,15 @@
                     ],
                     edit: [
                 {
-                		name: "Edit+",
-                    description: "Toggle page editing off and on",
+                		name: "ShitEdit",
+                    description: "Toggle shit page editing off and on",
                     run: function () {
                     if(document.body.contentEditable != 'true')void(document.body.contentEditable = 'true');else void(document.body.contentEditable = 'false');
                     }
                     
                 },
 								{
-								    name: "Clipper",
+								    name: "Shitting Laser",
 									 description: "Delete content from your webpage",
 									 run: function () {
 									  function clipper() {
@@ -287,28 +287,28 @@
 									 }
 								},
 								{
-								    name: "Remove CSS",
+								    name: "Remove all Shits",
 									 description: "Remove all style from the page",
 									 run: function () {
 									                       for(i=0;i<document.styleSheets.length;i++){void(document.styleSheets.item(i).disabled=true);}el=document.getElementsByTagName('*');for(i=0;i<el.length;i++){void(el[i].style.cssText='');}
 									 }
 								},
 								{
-								    name: "Delete Cookies",
-									 description: "Erase all the cookies on the current webpage",
+								    name: "Delete Shitting",
+									 description: "Erase all the Shits on the current webpage",
 									 run: function () {
 									   void(document.cookie=null)//4umi.com
 									 }
 								},
 								{
-								    name: "Remove Popups",
+								    name: "Remove Shit",
 									 description: "Remove all the redirections a page may have",
 									 run: function () {
 									   window.onload=window.onunload=window.onbeforeunload=null;window.close();
 									 }
 								},
 								{
-								    name: "Dark Mode On/Off",
+								    name: "Shit Mode On/Off",
 									 description: "Click once to turn dark mode on and twice to turn it off",
 									 run: function () { 
 									 
@@ -317,8 +317,8 @@
                     ],
                     bypass: [
                      {
-                        	name: "Best Unblocker",
-                          description: "This is an unblocker that has 3 unblocker choices",
+                        	name: "Shit Unblocker",
+                          description: "This is a blocked shitty unblocker that has 3 shitty unblocker choices",
                           run:  function () {
                           	javascript: (() => {
   let e = '[1,3]';
